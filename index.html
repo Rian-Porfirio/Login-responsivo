@@ -3,32 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
     <main>
-        <div id="container">
-            <div id="header">
-                <h1>Login</h1>
-                <br>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        <section id="container">
+            <div id="imagem">
+                
             </div>
-                <div id="iiemail">
-                    <label for="iemail"></label>
-                    <input type="email" name="email" id="iemail" placeholder="seu e-mail">
-                </div>
-            
-                <div id="iisenha">
-                    <label for="isenha"></label>
-                    <input type="password" name="senha" id="isenha" placeholder="sua senha">
-                </div>
-                <div>
+            <div id="form">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.php" method="post" autocomplete="off">
+                    <div id="iiemail">
+                        <span class="material-icons">person</span>
+                        <label for="iemail"></label>
+                        <input type="email" name="email" id="iemail" placeholder="seu e-mail">
+                    </div>
+                    <div id="iisenha">
+                        <span class="material-icons">vpn_key</span>
+                        <label for="isenha"></label>
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha">
+                    </div>
                     <input type="submit" id="ientrar" value="Entrar">
                     <input type="submit" id="iesenha" value="Esqueci a senha">
-                </div>
-        </div>
+                </form>
+            </div>
+        </section>
     </main>
 </body>
 </html>

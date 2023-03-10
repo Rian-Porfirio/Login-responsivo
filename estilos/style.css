@@ -1,5 +1,11 @@
-@charset "UTF-8";
+ @charset "UTF-8";
+/* https://professorguanabara.github.io/projeto-login/imagens/metal.jpg */
 
+/* paleta de cores
+    verde: #49a09d
+    lilás: #5f2c82;
+
+*/
 *{
     padding: 0;
     margin: 0;
@@ -7,76 +13,130 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html{
-    width: 97vw;
-    height: 96vh;
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #5f2c82; 
+}
+
+#imagem{
+    display: block;
+    background-image: url('https://professorguanabara.github.io/projeto-login/imagens/metal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 200px;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #container{
     position: absolute;
-    border: 2px solid black;
-    padding: 20px;
-    border-radius: 20px;
-
-    transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+    height: 512px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.456);
+
 }
 
-div > h1{
+#form{
+    padding: 10px;
+}
+
+#form h1{
     text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+#form p{
+    font-size: small;
+    margin: 0px 0px 5px 0px;
 }
 
 #iemail{
-    background-color: rgb(97, 204, 172);
-    width: 100%;
-    padding: 10px;
-    border-radius: 10px;
+    background-color: #8ecec3;
+    width: 86%;
+    border-radius: 8px;
     border: none;
+    padding-top: 16px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 1em;
 }
 
 #iiemail{
-    display: block;
-    padding: 2px 2px 2px 45px;
-    margin-top: 20px;
-    background-color: purple;
-    border-radius: 8px;
+    background-color:#5f2c82;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    margin-top: 5px;
 }
 
 #isenha{
-    background-color: rgb(97, 204, 172);
-    width: 100%;
-    padding: 10px;
-    border-radius: 10px;
+    background-color: #8ecec3;
+    width: 86%;
+    border-radius: 8px;
     border: none;
+    padding-top: 16px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 1em;
 }
 
 #iisenha{
-    display: block;
-    padding: 1px 2px 1px 45px;
+    background-color:#5f2c82;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    padding-left: 10px;
     margin-top: 5px;
-    background-color: purple;
-    border-radius: 8px;
 }
 
 #ientrar{
     display: block;
-    padding: 10px;  
     margin-top: 5px;
     width: 100%;
+    padding: 10px;
     border-radius: 5px;
-    border: none;
-    background-color:rgb(97, 204, 172);
+    background-color: #3ca9a5;
     color: white;
+    border: none;
+    font-size: 1em;
 }
 
 #iesenha{
     display: block;
-    padding: 10px;
     margin-top: 5px;
     width: 100%;
-    border-radius: 10px;
-    border: 1px solid rgb(97, 204, 172);
+    padding: 10px;
+    border-radius: 8px;
     background-color: white;
-    color:rgb(50, 104, 88); 
+    border: 1px solid #49a09d;
+    font-size: 1em;
+    color: #2f6a68;
+}
+
+#ientrar:hover{
+    background-color:#214f4e;
+    cursor: pointer;
+}
+
+#iesenha:hover{
+    background-color:#58cac6;
+    cursor: pointer;
+}
+
+#mail{
+    color: #49a09d;
+}
+
+.material-icons{
+    color: white;
 }

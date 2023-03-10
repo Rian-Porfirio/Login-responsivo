@@ -2,9 +2,8 @@
 /* https://professorguanabara.github.io/projeto-login/imagens/metal.jpg */
 
 /* paleta de cores
-    verde: #49a09d
+    verde: #49a09d;
     lilás: #5f2c82;
-
 */
 *{
     padding: 0;
@@ -16,7 +15,7 @@
 html, body{
     width: 100vw;
     height: 100vh;
-    background-color: #5f2c82; 
+    background-color: #9CD6CA; 
 }
 
 #imagem{

@@ -82,7 +82,7 @@ Grandes telas: acima de 1200px
     }
 }
 
-@media screen and (orientation: landscape){
+/* @media screen and (orientation: landscape){
 
     #form h1{
         font-size: 5em;
@@ -118,4 +118,4 @@ Grandes telas: acima de 1200px
         transform: translateY(20px);
     }
 }
-
+ */

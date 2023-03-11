@@ -35,6 +35,8 @@ html, body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 
     background-color: white;
     border-radius: 20px;
@@ -45,6 +47,7 @@ html, body{
 }
 
 #form{
+    display: block;
     padding: 10px;
 }
 
@@ -138,4 +141,6 @@ html, body{
 
 .material-icons{
     color: white;
+    font-size: 1.5em;
 }
+

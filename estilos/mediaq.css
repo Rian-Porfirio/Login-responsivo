@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    html, body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    
+    #container{
+        width: 80vw;
+        height: 40vh;
+    }
+
+    #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        border-top-right-radius:0px;
+        border-bottom-left-radius: 20px;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.411);
+    }
+
+    #form{
+        float: right;
+        width: 70%;
+    }
+
+    .material-icons{
+        font-size: 2em;
+        transform: translateY(3px)
+    }
+
+}
+
+@media screen and (min-width: 992px){
+
+    html, body{
+        background-image: linear-gradient(to top, #49a09d,#5f2c82 )
+    }
+
+    #container{
+        width: 65vw;
+        height: 48vh;
+    }
+
+    #imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 0px 0px 1px rgb(0, 0, 0)
+    }
+
+    #form{
+        width: 50%;
+    }
+
+    #form p{
+        font-size: medium;
+        margin-bottom: 15px;
+        margin-top: 20px;
+        line-height: 25px;
+    }
+
+    #form h1{
+        font-size: 1.8em;
+    }
+
+    .material-icons{
+        font-size: 2em;
+        transform: translateY(5px);
+    }
+}
+
+@media screen and (orientation: landscape){
+
+    #form h1{
+        font-size: 5em;
+    }
+
+    #form p{
+        font-size: 3em;
+        line-height: 55px;
+    }
+
+    #iemail{
+        padding: 30px;
+        font-size: 2em;
+    }
+
+    #isenha{
+        padding: 30px;
+        font-size: 2em;
+    }
+    
+    #ientrar{
+        padding: 15px;
+        font-size: 2em;
+    }
+
+    #iesenha{
+        padding: 15px;
+        font-size: 2em;
+    }
+
+    .material-icons{
+        font-size: 5em;
+        transform: translateY(20px);
+    }
+}
+

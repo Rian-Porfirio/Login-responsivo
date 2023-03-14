@@ -37,6 +37,7 @@ html, body{
     transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    overflow: hidden;
 
     background-color: white;
     border-radius: 20px;
